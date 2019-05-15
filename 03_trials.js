@@ -1,7 +1,7 @@
     // In this file you can specify the trial data for your experiment
 
 const trial_info = {
-    forced_choice: [
+    key_press: [
         {
             question: "Are these two figures the same except for their orientation?",
             picture: "images/1_50_different.jpg",
