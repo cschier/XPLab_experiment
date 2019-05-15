@@ -3,52 +3,22 @@
 const trial_info = {
     forced_choice: [
         {
-            question: "Are these two figures the same except for their orientation?",
-            picture: "images/1_50_different.jpg",
-            key1: 'p',
-            key2: 'q',
-            p: 'same',
-            q: 'different',
-            expected: 'different'
+            question: "What's on the bread?",
+            picture: "images/question_mark_02.png",
+            key1: 'q',
+            key2: 'p',
+            q: 'ham',
+            p: 'jam',
+            expected: 'jam'
         },
         {
-            question: "Are these two figures the same except for their orientation?",
-            picture: "images/1_150_same.jpg",
-            key1: 'p',
-            key2: 'q',
-            p: 'same',
-            q: 'different',
-            expected: 'same'
-        },
-        {
-            question: "Are these two figures the same except for their orientation?",
-            picture: "images/2_50_same.jpg",
-            key1: 'p',
-            key2: 'q',
-            p: 'same',
-            q: 'different',
-            expected: 'same'
-        },
-        {
-            question: "Are these two figures the same except for their orientation?",
-            picture: "images/9_50_different.jpg",
-            key1: 'p',
-            key2: 'q',
-            p: 'same',
-            q: 'different',
-            expected: 'different'
-        },
-        {
-            question: "Are these two figures the same except for their orientation?",
-            picture: "images/6_50_same.jpg",
-            key1: 'p',
-            key2: 'q',
-            p: 'same',
-            q: 'different',
-            expected: 'same'
-        },
-    ],
-
+            question: "What's the weather like?",
+            picture: "images/weather.jpg",
+            key1: 'q',
+            key2: 'p',
+            q: 'shiny',
+            p: 'rainbow',
+            expected: 'rainbow'
+        }
+    ]
 };
-
-
