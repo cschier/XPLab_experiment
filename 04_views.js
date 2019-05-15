@@ -23,15 +23,14 @@ const intro = babeViews.intro({
     trials: 1,
     name: 'intro',
     // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
-    text:   `This is a sample introduction view.
+    text:   `Thank you for participating in our experiment!
             <br />
             <br />
-            The introduction view welcomes the participant and gives general information
-            about the experiment. You are in the <strong>${coin}</strong> group.
+            The experiment will take less than 5 minutes to complete. Please concentrate on the task and make sure that you will not be distracted.
             <br />
             <br />
-            This is a minimal experiment with one forced choice view. It can serve as a starting point for programming your own experiment.`,
-   buttonText: 'Begin the experiment'
+            Click on the button below to receive instructions.`,
+    buttonText: 'Begin the experiment'
 });
 
 // For most tasks, you need instructions views
