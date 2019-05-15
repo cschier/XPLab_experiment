@@ -30,7 +30,7 @@ const intro = babeViews.intro({
             <br />
             <br />
             Click on the button below to receive instructions.`,
-    buttonText: 'Begin the experiment'
+    buttonText: 'Receive instructions'
 });
 
 // For most tasks, you need instructions views
