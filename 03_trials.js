@@ -9,7 +9,9 @@ const trial_info = {
             key2: 'q',
             p: 'same',
             q: 'different',
-            expected: 'different'
+            expected: 'different',
+            picture_number: 1,
+            degree_of_rotation: 50
         },
         {
             question: "Are these two figures the same except for their orientation?",
@@ -18,7 +20,9 @@ const trial_info = {
             key2: 'q',
             p: 'same',
             q: 'different',
-            expected: 'same'
+            expected: 'same',
+            picture_number: 2,
+            degree_of_rotation: 150
         },
         {
             question: "Are these two figures the same except for their orientation?",
@@ -27,7 +31,9 @@ const trial_info = {
             key2: 'q',
             p: 'same',
             q: 'different',
-            expected: 'same'
+            expected: 'same',
+            picture_number: 3,
+            degree_of_rotation: 50
         },
         {
             question: "Are these two figures the same except for their orientation?",
@@ -36,16 +42,20 @@ const trial_info = {
             key2: 'q',
             p: 'same',
             q: 'different',
-            expected: 'different'
+            expected: 'different',
+            picture_number: 4,
+            degree_of_rotation: 50
         },
         {
             question: "Are these two figures the same except for their orientation?",
-            picture: "images/6_50_same.jpg",
+            picture: "images/6_150_same.jpg",
             key1: 'p',
             key2: 'q',
             p: 'same',
             q: 'different',
-            expected: 'same'
+            expected: 'same',
+            picture_number: 5,
+            degree_of_rotation: 150
         },
     ],
 
