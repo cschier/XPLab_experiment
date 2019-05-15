@@ -1,6 +1,6 @@
 # XPLab_mental-rotation-task
 
-This repository uses the _babe depature point for an web-based experiment. This experiment is the Simon task, where the participant has to decide whether or not two figures from different angles are the same.
+This repository uses the _babe depature point for an web-based experiment. This experiment is a mental rotation task, where the participant has to decide whether or not two figures from different angles are the same.
 
 ## Motivation
 
