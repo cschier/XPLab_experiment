@@ -38,10 +38,13 @@ const instructions = babeViews.instructions({
     trials: 1,
     name: 'instrucions',
     title: 'General Instructions',
-    text:  `This is a sample instructions view.
+    text:  `Please be concentrated while completing the task.
             <br />
             <br />
-            Tell your participants what they are to do here.`,
+            You will be shown pictures, each containing 2 geometric figures. Your task is, to <strong>decide whether or not those two figures are the same</strong>, except for their orientation.
+            <br />
+            <br />
+            If the geometric figures are the <strong>same</strong>, please press the <strong>'p' key</strong> on your keyboard. If they are <strong>different</strong>, please press the <strong>'q' key<strong>.`,
     buttonText: 'go to trials'
 });
 
