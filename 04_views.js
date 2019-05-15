@@ -44,7 +44,10 @@ const instructions = babeViews.instructions({
             You will be shown pictures, each containing two (3-dimensional) geometric figures. Your task is, to <strong>decide whether or not those two figures are the same</strong>, except for their orientation.
             <br />
             <br />
-            If the geometric figures are the <strong>same</strong>, please press the <strong>'p' key</strong> on your keyboard. If they are <strong>different</strong>, please press the <strong>'q' key<strong>.`,
+            If the geometric figures are the <strong>same</strong>, please press the <strong>'p' key</strong> on your keyboard. If they are <strong>different</strong>, please press the <strong>'q' key<strong>.
+            <br />
+            <br />
+            <strong>Please answer as quick as possible!</strong>`,
     buttonText: 'go to trials'
 });
 
