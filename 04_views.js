@@ -36,7 +36,7 @@ const intro = babeViews.intro({
 // For most tasks, you need instructions views
 const instructions = babeViews.instructions({
     trials: 1,
-    name: 'instrucions',
+    name: 'instructions',
     title: 'General Instructions',
     text:  `Please be concentrated while completing the task.
             <br />
