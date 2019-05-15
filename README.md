@@ -2,6 +2,13 @@
 
 This repository uses the _babe depature point for an web-based experiment. This experiment is the Simon task, where the participant has to decide whether or not two figures from different angles are the same.
 
+## Motivation
+
+This is a homework project for the course "Experimental Psychology Lab". 
+The group members are:
+- Clara Schier (973100)
+- Marisa Wodrich (972361)
+
 
 ## Running the experiment
 
