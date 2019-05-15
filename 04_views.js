@@ -41,7 +41,7 @@ const instructions = babeViews.instructions({
     text:  `Please be concentrated while completing the task.
             <br />
             <br />
-            You will be shown pictures, each containing 2 geometric figures. Your task is, to <strong>decide whether or not those two figures are the same</strong>, except for their orientation.
+            You will be shown pictures, each containing two (3-dimensional) geometric figures. Your task is, to <strong>decide whether or not those two figures are the same</strong>, except for their orientation.
             <br />
             <br />
             If the geometric figures are the <strong>same</strong>, please press the <strong>'p' key</strong> on your keyboard. If they are <strong>different</strong>, please press the <strong>'q' key<strong>.`,
