@@ -34,14 +34,37 @@ const intro = babeViews.view_generator('intro', {
 });
 
 // For most tasks, you need instructions views
-const instructions = babeViews.view_generator('instructions', {
+const instructions_practice = babeViews.view_generator('instructions', {
     trials: 1,
     name: 'instructions',
     title: 'General Instructions',
-    text:  `Please be concentrated while completing the task.
+    text:  `First you have to complete some <strong>test trials</strong>.
+            <br />
+            <br />
+            Please be concentrated while completing the task.
             <br />
             <br />
             You will be shown pictures, each containing two (3-dimensional) geometric figures. Your task is, to <strong>decide whether or not those two figures are the same</strong>, except for their orientation.
+            <br />
+            <br />
+            If the geometric figures are the <strong>same</strong>, please press the <strong>'p' key</strong> on your keyboard. If they are <strong>different</strong>, please press the <strong>'q' key<strong>.
+            <br />
+            <br />
+            <strong>Please answer as quick as possible!</strong>`,
+    buttonText: 'go to test trials'
+});
+
+const instructions_trials = babeViews.view_generator('instructions', {
+    trials: 1,
+    name: 'instructions',
+    title: 'General Instructions',
+    text:  `Pratice is over. Now we come to the real experiment.
+            <br />
+            <br />
+            Please be concentrated while completing the task.
+            <br />
+            <br />
+            The task is the same: You will be shown pictures, each containing two (3-dimensional) geometric figures. Your task is, to <strong>decide whether or not those two figures are the same</strong>, except for their orientation.
             <br />
             <br />
             If the geometric figures are the <strong>same</strong>, please press the <strong>'p' key</strong> on your keyboard. If they are <strong>different</strong>, please press the <strong>'q' key<strong>.
@@ -109,11 +132,11 @@ const thanks = babeViews.view_generator('thanks', {
 // Here, we initialize a keyPress view
 const key_press = babeViews.view_generator('key_press', {
     // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
-    trials: trial_info.key_press.length,
+    trials: trial_info.key_press_trials.length,
     // name and trial_type should be identical to the variable name
     name: 'key_press',
     trial_type: 'key_press',
-    data: _.shuffle(trial_info.key_press),
+    data: _.shuffle(trial_info.key_press_trials),
     pause: 1000,
     fix_duration: 500
 
@@ -122,18 +145,21 @@ const key_press = babeViews.view_generator('key_press', {
 
 const practice_session = babeViews.view_generator('key_press', {
     // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
-    trials: 5,
+    trials: trial_info.key_press_practice.length,
     // name and trial_type should be identical to the variable name
-    name: 'key_press',
-    trial_type: 'key_press',
-    data: _.shuffle(trial_info.key_press),
+    name: 'key_press_practice',
+    trial_type: 'key_press_practice',
+    data: _.shuffle(trial_info.key_press_practice),
     pause: 1000,
     fix_duration: 500,
-    // hook: {
-    //     after_response_enabled: check_response
-    // }
+    hook: {
+        after_response_enabled: check_response
+    }
 
 });
+
+
+
 
 
 // There are many more templates available:
